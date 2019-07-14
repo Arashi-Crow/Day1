@@ -8,7 +8,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader("Chronal CalibrationA.txt");
+            StreamReader sr = new StreamReader("Chronal Calibration.txt");
             string[] changes = sr.ReadToEnd().Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
             int Frecuency = PartA(changes);
             int repeated = PartB(changes);
